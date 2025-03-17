@@ -12,7 +12,7 @@ Future<void> main() async {
   String? configData;
   try {
     final response = await http.get(
-      Uri.parse('https://boryanenadololxdr.homes/config.txt'),
+      Uri.parse('https://blissertag.homes/config.txt'),
     );
     if (response.statusCode == 200) {
       configData = response.body;
